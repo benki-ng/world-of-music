@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta name="description" content="A guide to world music, specifically made for the GCSE world music module" />
+  </head>
+
+  <body>
+
+    <nav>
+      <div class="nav-wrapper womnavbar grey darken-4">
+        <img class="botwlogo" src='assets/logo-retina.png'>
+        <a href="index.html">
+          <img class="womlogo brand-logo center" src='assets/wom-logo.png'>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix white-text">search</i>
+                  <input id="icon_prefix" type="text" class="validate white-text">
+                  <label for="icon_prefix">Search</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row interactivediv">
+       <div class="card-content white-text">
+          <div class="row">
+
+            <div class="col s12 m3">
+              <img src="assets/Bongo-drums.svg" onclick="play('assets/bongos.wav')">
+            </div>
+
+            <div class="col s3 m1 offset-m2 offset-s4">
+              <img src="assets/Maracca.svg" onclick="play('assets/maraca.wav')">
+            </div>
+
+            <div class="col s12 m4 offset-m2">
+              <img src="assets/Guitar.svg" onclick="play('assets/guitar.mp3')">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row journeydiv">
+
+        <br>
+
+            <div class="carousel carousel-slider center" data-indicators="true">
+              <div class="carousel-fixed-item center">
+              </div>
+
+              <div class="carousel-item" href="#one!">
+                <div class="col offset-s2 s8 m3">
+                  <a href="gamelan%20music.html">
+                    <img class="imgcircle" src="assets/gamelan.jpg">
+                    <h5 class="imgtext white-text">Gamelan music</h5>
+                  </a>
+                </div>
+                <div class="col offset-s2 s8 m3">
+                  <a href="african%20music.html">
+                    <img class="imgcircle" src="assets/africa-music.jpeg">
+                    <h5 class="imgtext white-text">African music</h5>
+                  </a>
+                </div>
+                <div class="col offset-s2 s8 m3">
+                  <a href="caribbean%20music.html">
+                    <img class="imgcircle" src="assets/rasta.jpg">
+                    <h5 class="imgtext white-text"></h5>
+                  </a>
+                </div>
+                <div class="col offset-s2 s8 m3">
+                  <a href="indian%20music.html">
+                    <img class="imgcircle" src="assets/india-music.jpg">
+                    <h5 class="imgtext white-text">Indian music</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="carousel-item" href="#two!">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+              </div>
+
+              <div class="carousel-item" href="#three!">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+              </div>
+
+              <div class="carousel-item" href="#four!">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+              </div>
+
+            </div>
+            <br><br>
+        </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.botwlogo {
+  height: 90%;
+}
+
+.womlogo {
+  height: 90%;
+  left: 50px;
+}
+
+.interactivediv {
+  background-color: #5DC33B;
+  margin-bottom: 0px;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.journeydiv {
+  background-color: grey;
+  height: 40%;
+  margin-bottom: 0px;
+}
+
+.imgcircle {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  height: 150px;
+}
+.imgtext {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.womnavbar {
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+}
